@@ -166,7 +166,7 @@ iframe{
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
-  width: 280px;
+  max-width: 306px;
 }
 .main_job{
   font-size: 21px;
