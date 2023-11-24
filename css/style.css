@@ -459,7 +459,7 @@ font-weight: 600;
 	
 		transition: 0.5s;
 	
-    margin: 15px 0;
+    margin: 10px 0;
 	}
 	
 	.accordionItemHeading:hover {
@@ -474,7 +474,7 @@ font-weight: 600;
   }
 	
 	.accordionItemHeading:after {
-	
+	 
 		content: '\002B';
 	
 		color: #fff;
@@ -495,7 +495,7 @@ font-weight: 600;
 	
 	
 	.accordionItemContent {
-	
+	border-bottom: 1px solid #6183E4;
 		padding: 0 18px;
 	
 			color: #000000;
@@ -526,6 +526,62 @@ font-weight: 600;
   .add_text{
     text-align: center;
     margin-bottom: 65px;
+  }
+  .footer_main{
+    background: #E0E0E0;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .logo_main{
+    width: 92px;
+    height: 65px;
+    background-color: #4B4B4B;
+  }
+  .footer_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 25px;
+  }
+  .footer_ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 930px;
+  }
+  .logo_rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+  }
+  .footer_item{
+    padding: 0 25px;
+  }
+  .img_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+  }
+  .footer_text{
+    color: #969696;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 20px;
+  }
+  .footer_link{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
   }
 
 
