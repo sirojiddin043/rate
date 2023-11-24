@@ -237,12 +237,7 @@
     .main_subtitle{
         font-size: 42px;
     }
-    .section_may{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+    
     .messanger_title {
         font-size: 32px;
         
